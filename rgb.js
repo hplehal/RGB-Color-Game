@@ -1,12 +1,4 @@
 //Javascript Docs
-//var game ={};
-//game.init = function(){
-//	modeEventListener();
-//	setSquares();
-//	resetGame();
-//};
-//game.init();
-
 var colors = [];
 var numSquares = 5;
 var pickedColor;
