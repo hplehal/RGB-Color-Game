@@ -1,0 +1,80 @@
+/* CSS Document */
+
+body{
+	background-color: #2B2A1E;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+h1{
+	color: aliceblue;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1.1;
+	padding: 20px 0;
+	text-transform: uppercase;
+	background-color: steelblue;
+	margin: 0;
+}
+
+#rgb{
+	font-size: 200%;
+}
+
+#message{
+	display: inline-block;
+	width : 20%;
+}
+.tab{
+	background-color: aliceblue;
+	color: steelblue;
+	
+	font-size: 20px;
+	text-align: center;
+}
+.colorBox{
+	width: 30%;
+	border-radius: 30px;
+	background: blue;
+	padding-bottom: 30%; 
+	float: left;
+	margin: 1.66%;
+	transition: background .7s;
+	-webkit-transition: background .7s;
+	-moz-transition: background .7s;
+}
+
+.container{
+	
+	max-width: 700px;
+	margin : 30px auto;
+}
+
+.selected{
+	background-color:steelblue;
+	color:aliceblue;
+
+}
+
+button{
+	border:none;
+	background:none;
+	text-transform: uppercase;
+	height:300%;
+	font-size: inherit;
+	font-weight: 700px;
+	color: steelblue;
+	letter-spacing: 1px;
+	transition: all .5s;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	outline:none;
+}
+
+button:hover {
+	color:aliceblue;
+	background-color:steelblue;
+}
+
+
